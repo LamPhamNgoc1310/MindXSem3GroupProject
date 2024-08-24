@@ -1,9 +1,0 @@
-Doc: 
-https://docs.google.com/document/d/11woFMXu2dBHySIjiLnv42yocfQo2nEoWB-n53WM1IFA/edit#heading=h.iflr7xhk0rfi
-
-Admin:
-Student Management Page
-Teacher Management Page
-Class Management Page
-Schedule Management Page
-Curriculum Management Page
