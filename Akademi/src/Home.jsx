@@ -17,7 +17,7 @@ const Home = () => {
       <div className='school-header'>
         <a href=''>
           <span className='school-icon'><MdSchool /></span>
-          <span className='school-name'>AKADEMY</span>
+          <span className='school-name'>AKADEMI</span>
         </a>
       </div>
       <div className='navigation'>
