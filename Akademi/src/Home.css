@@ -11,6 +11,12 @@
     align-items: center;
 }
 
+.head-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .school-icon {
     /* chọn màu */
     margin-right: 20px;

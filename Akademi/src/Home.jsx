@@ -15,7 +15,7 @@ const Home = () => {
     <div className='container'>
       {/* sau chuyển hết thẻ a thành thẻ Link */}
       <div className='school-header'>
-        <a href=''>
+        <a href='' className='head-1'>
           <span className='school-icon'><MdSchool /></span>
           <span className='school-name'>AKADEMY</span>
         </a>
