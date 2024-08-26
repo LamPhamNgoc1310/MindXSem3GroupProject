@@ -1,6 +1,9 @@
 # MindXSem3GroupProject
+
 Akademia Website
 
-Members: 
+Members:
+
 - Pham Ngoc Lam
 - Nguyen Ba Minh Duc
+- Dam Thanh Quang
