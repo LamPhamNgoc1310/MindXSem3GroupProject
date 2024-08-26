@@ -85,3 +85,12 @@
     line-height: 60px;
     display: block;
 }
+
+.outlet {
+    position: absolute;
+    margin-left: 25%;
+    font-weight: 700;
+    font-size: 36px;
+    color: #303972;
+    ;
+}

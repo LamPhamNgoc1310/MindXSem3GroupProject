@@ -9,6 +9,7 @@ import { PiForkKnife, PiStudent } from 'react-icons/pi'
 import { RiHandCoinLine } from 'react-icons/ri'
 import "./Home.css"
 import { MdSchool } from 'react-icons/md'
+import { Outlet } from 'react-router-dom'
 
 const Home = () => {
   return (
@@ -29,7 +30,7 @@ const Home = () => {
             </a>
           </li>
           <li>
-            <a href=''>
+            <a href='/student'>
               <span className='icon'><PiStudent /></span>
               <span className='title'>Students</span>
             </a>
@@ -77,6 +78,9 @@ const Home = () => {
             </a>
           </li>
         </ul>
+      </div>
+      <div className="outlet">
+        <Outlet/>
       </div>
     </div>
   )
