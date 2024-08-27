@@ -16,19 +16,19 @@ const publicRouter = [
 const privateRouter = [
     // Lâm - admin
     {
-        path: '/adminstudentman', component: <AdminStudentMan/>
+        path: '/admin', component: <Admin/>
     },
     {
-        path: '/adminteacherman', component: <AdminTeacherMan/>
+        path: '/admin/teacherman', component: <AdminTeacherMan/>
     },
     {
-        path: '/adminclassman', component: <AdminClassMan/>
+        path: '/admin/classman', component: <AdminClassMan/>
     },
     {
-        path: '/adminschedule', component: <AdminSchedule/>
+        path: '/admin/schedule', component: <AdminSchedule/>
     },
     {
-        path: '/admincurriculum', component: <AdminCurriculum/>
+        path: '/admin/curriculum', component: <AdminCurriculum/>
     },
 
     // Đức - teacher
@@ -37,12 +37,12 @@ const privateRouter = [
     },
     // Quang - student
     {
-        path: 'personalinfo', component: <PersonalInfo/>
+        path: '/student', component: <StudentPersonalInfo/>
     },
     {
-        path: 'academic', component: <Academic/>
+        path: '/student/academic', component: <StudentAcademic/>
     },
     {
-        path: 'schedule', component: <SchedulePage/>
+        path: '/student/schedule', component: <StudentSchedule/>
     }
 ]

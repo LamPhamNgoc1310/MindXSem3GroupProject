@@ -1,7 +1,7 @@
 import React from "react";
 import "./AdminStudentMan.css"
 
-const AdminStudentMan = () => {
+const Admin = () => {
   return (
     <div className="container">
       <div className="admin-student-tab">
@@ -17,4 +17,4 @@ const AdminStudentMan = () => {
   );
 };
 
-export default AdminStudentMan;
+export default Admin;
