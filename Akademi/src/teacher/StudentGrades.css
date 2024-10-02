@@ -1,0 +1,16 @@
+.tc-grade-all{
+    margin: 30px 50px;
+    padding: 10px 50px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+:where(.css-dev-only-do-not-override-11lehqq).ant-tabs .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+    color: #4D44B5;
+    text-shadow: 0 0 0.25px currentcolor;
+}
+
+:where(.css-dev-only-do-not-override-11lehqq).ant-tabs .ant-tabs-tab:hover {
+    color: #4D44B5;
+}
+
