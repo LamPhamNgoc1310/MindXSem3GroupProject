@@ -1,0 +1,156 @@
+.tc-add-std-detail {
+    margin: 30px 50px;
+}
+
+.tc-add-std-head {
+    color: white;
+    background-color: #4D44B5;
+    font-weight: 700;
+    font-size: 24px;
+    padding-left: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.tc-add-photo{
+    border: 1px dashed #C1BBEB;
+    width: 160px;
+    height: 160px;
+    margin-top: 10px;
+    border-radius: 5px;
+    color: #A098AE;
+    font-weight: 400;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.tc-add-photo:hover {
+    cursor: pointer;
+}
+
+.tc-table-input {
+    background-color: white;
+    width: 100%;
+    color: #303972;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 30px;
+}
+
+.tc-table-input td {
+    vertical-align: top;
+}
+
+.tc-table-input input {
+    border: 1px solid #C1BBEB;
+    outline: none;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.tc-table-input input::placeholder {
+    font-size: 16px;
+    color: #A098AE;
+}
+
+.tc-input-birth {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.tc-table-input textarea {
+    width: 100%;
+    margin-top: 10px;
+    border: 1px solid #C1BBEB;
+    border-radius: 5px;
+    height: 200px;
+}
+
+.tc-table-input textarea::placeholder {
+    font-size: 16px;
+    color: #A098AE;
+    padding: 10px 20px;
+}
+
+.tc-payment label {
+    color: #A098AE;
+    font-size: 16px;
+}
+
+.tc-payment p {
+    margin-bottom: 10px;
+}
+
+.tc-radio-gap {
+    margin-right: 20px;
+}
+
+.ant-radio-checked .ant-radio-inner {
+    background-color: #4D44B5;
+    border: #4D44B5;
+}
+
+.ant-radio-inner::after {
+    background-color: #4D44B5;
+    border: #4D44B5;
+
+}
+
+.ant-radio:hover .ant-radio-inner,
+.ant-radio-input:focus+.ant-radio-inner {
+    background-color: #4D44B5;
+    border: #4D44B5;
+}
+
+:where(.css-dev-only-do-not-override-11lehqq).ant-radio-wrapper .ant-radio-checked .ant-radio-inner {
+    border-color: #4D44B5;
+    background-color: #4D44B5;
+}
+
+.tc-table-cc {
+    margin-top: 20px;
+    background-color: #b3afe0;
+    padding: 20px 25px;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+
+.tc-table-sm {
+    margin-top: 20px;
+    background-color: #4D44B5;
+    padding: 20px 25px;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    font-size: 18px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+}
+
+.tc-table-sm:hover{
+    cursor: pointer;
+    background-color: #3d32b8 !important;
+}
+
+.tc-table-cc:hover{
+    cursor: pointer;
+    background-color: #6c62d4 !important;
+    color: white !important;
+}
+
+.tc-2-btn{
+    display: flex;
+    justify-content: end;
+}
