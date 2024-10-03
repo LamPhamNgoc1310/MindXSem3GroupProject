@@ -146,8 +146,7 @@
     width: 100%;
 }
 
-.tc-avt-table {
-    background-color: #A098AE;
+.tc-avt-table img{
     height: 35px;
     width: 35px;
     border-radius: 50px;

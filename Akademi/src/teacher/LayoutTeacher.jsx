@@ -68,7 +68,7 @@ const LayoutTeacher = () => {
           </ul>
         </div>
       </Col>
-      <Col span={19}>
+      <Col span={19} style={{backgroundColor: '#F3F4FF'}}>
         <Row className='tc-margin-outlet'>
           <div className='tc-sm-header'>
             <div className='tc-sm-name'>

@@ -45,9 +45,9 @@ const StudentsManagement = () => {
         {
             title: <span style={{ color: '#303972' }}>Name</span>,
             dataIndex: 'studentName',
-            render: (text) => (
+            render: (text, record) => (
                 <div style={{ display: 'flex', alignItems: 'center', cursor: 'pointer', width: 200 }}>
-                    <div className='tc-avt-table'></div>
+                    <div className='tc-avt-table'><img src={record.avatar}></img></div>
                     <span style={{ marginLeft: 8, color: '#303972', fontSize: '16px', fontWeight: '700' }}>{text}</span>
                 </div>)
         },
