@@ -81,11 +81,11 @@
 }
 
 .navigation ul li.active a {
-    color: #4D44B5; /* Text color when active */
+    color: #4D44B5; 
 }
 
 .navigation ul li.active {
-    background-color: #F3F4FF; /* Background color when active */
+    background-color: #F3F4FF; 
 }
 
 .tc-margin-outlet{
