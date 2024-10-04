@@ -1,0 +1,195 @@
+.admin-schedule {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.teacher-title {
+    font-weight: 700;
+    font-size: 36px;
+    color: #303972;
+}
+
+.header-right-side {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+
+.header-icon {
+    background-color: transparent;
+    border: none;
+}
+
+.header-icon svg {
+    height: fit-content;
+    font-size: 2em;
+    background-color: white;
+    border-radius: 50%;
+    padding: 5px;
+    color: #A098AE;
+}
+
+.admin-card {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+
+.admin-name {
+    width: max-content;
+    font-weight: 600;
+    color: #4D44B5;
+}
+
+.admin-role {
+    color: #A098AE;
+}
+
+.title-image img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.dropdown ul {
+    list-style: none;
+    background-color: white;
+}
+
+.dropdown {
+    position: absolute;
+    border: 1px solid black;
+    z-index: 1;
+    background-color: white;
+}
+
+.dropdown .drop-list .item button{
+    background-color: transparent;
+    border: none;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.search-area {
+    border-radius: 20px;
+    overflow: hidden;
+    padding: 5px 10px 5px 10px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-icon svg {
+    width: 20px;
+    height: 20px;
+}
+
+.nav-buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.newest, .new-teacher {
+    border: 1px solid #4D44B5;
+    padding: 5px 20px 5px 20px;
+    border-radius: 20px;
+    background-color: transparent;
+    font-weight: 400;
+    font-size: 15px;
+    color: #4D44B5;
+    &:hover {
+        background-color: #4D44B5;
+        color: white;
+    }
+}
+
+.dropdown {
+    margin-top: 40px;
+    margin-left: 3px;
+    padding: 10px 15px 0px 15px;
+    border: 1px solid #4D44B5;
+    border-radius: 5px;
+    color: #4D44B5;
+}
+
+.item {
+    padding-block: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.item:hover {
+    background-color: #4D44B5;
+    color: white;
+    border-radius: 5px;
+}
+
+.teachers {
+    margin-top: 20px;
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5%;
+    justify-content: center;
+
+}
+
+.teacher-card {
+    border-radius: 10px;
+    width: 21%;
+    height: 45%;
+    background-color: white;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10%;
+}
+
+.teacher-card img {
+    border-radius: 50%;
+    margin-top: 5%;
+    width: 80px;
+    height: 80px;
+}
+
+.teacher-card .teacher-button {
+    position: absolute;
+    width: 10%;
+    margin-top: 5%;
+    margin-left: 80%;
+    background-color: transparent;
+    border: none;
+}
+
+.teacher-name {
+    font-weight: 700;
+    color: #303972;
+}
+
+.teacher-subject {
+    color: #A098AE;
+}
+
+.teacher-icons-area {
+    display: flex;
+    gap: 12%;
+}
+
+.teacher-icon svg{
+    color: white;
+    background-color: #303972;
+    border-radius: 50%;
+    padding: 20%;
+    width: 30px;
+    height: 30px;
+}

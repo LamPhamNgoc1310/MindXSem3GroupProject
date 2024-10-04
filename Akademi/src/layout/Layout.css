@@ -1,86 +1,121 @@
-.container {
-    height: 100vh;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.layout-container {
+  width: 15vw;
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 100vh;
+  grid-template-columns: 20vw 80vw;
+  grid-template-areas: "layout outlet";
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.layout-left {
+  grid-area: layout;
+  position: absolute;
+  z-index: 1;
+  width: 20vw;
+  height: 100vh;
 }
 
 .school-header {
-    background-color: #4D44B5;
-    padding: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;  
+  background-color: #4d44b5;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
 
 .navigation {
-    background-color: #4D44B5;
-    transition: 0.5s;
-    overflow: hidden;
-    width: 100%; 
-    height: 100%; 
+  background-color: #4d44b5;
+  transition: 0.5s;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
 }
 
 .navigation ul {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
 .navigation ul li {
-    width: 100%;
-    list-style: none;
-    margin-left: 20px;
-    border-top-left-radius: 30px;
-    border-bottom-left-radius: 30px;
-    margin-bottom: 10px;
+  width: 100%;
+  list-style: none;
+  margin-left: 20px;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  margin-bottom: 10px;
 }
 
 .navigation ul li:hover {
-    background-color: #F3F4FF;
+  background-color: #f3f4ff;
 }
 
-.navigation ul li a {
-    display: flex;
-    align-items: center;
-    padding: 10px;
-    text-decoration: none;
-    color: #F3F4FF;
+.navigation ul li .link {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  text-decoration: none;
+  color: #f3f4ff;
+  margin-left: 30px;
 }
 
 .navigation ul li:hover a {
-    color: #4D44B5;
+  color: #4d44b5;
 }
 
 .navigation .icon {
-    margin-right: 10px;
-    font-size: 26px;
+  margin-right: 10px;
+  font-size: 26px;
 }
 
 .navigation .title {
-    flex-grow: 1;
-    font-size: 18px;
+  flex-grow: 1;
+  font-size: 18px;
 }
 
 .school-icon {
-    margin-right: 20px;
-    font-size: 36px;
-    color: white;
+  margin-right: 20px;
+  font-size: 36px;
+  color: white;
 }
 
 .school-name {
-    font-size: 32px;
-    font-weight: 700;
-    color: white;
+  font-size: 32px;
+  font-weight: 700;
+  color: white;
 }
 
 .head-1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .navigation ul li.active a {
-    color: #4D44B5; 
+  color: #4d44b5;
 }
 
 .navigation ul li.active {
-    background-color: #F3F4FF;
+  background-color: #f3f4ff;
+}
+
+.outlet {
+  padding-top: 20px;
+  grid-area: outlet;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  padding-right: 30px;
+  padding-left: 50px;
+  background-color: #F5F5FF;
 }

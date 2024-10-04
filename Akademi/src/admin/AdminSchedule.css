@@ -1,0 +1,123 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.admin-teacherman {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.schedule-title {
+  font-weight: 700;
+  font-size: 36px;
+  color: #303972;
+}
+
+.header-right-side {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 10px;
+}
+
+.header-icon {
+  background-color: transparent;
+  border: none;
+}
+
+.header-icon svg {
+  height: fit-content;
+  font-size: 2em;
+  background-color: white;
+  border-radius: 50%;
+  padding: 5px;
+  color: #a098ae;
+}
+
+.admin-card {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+}
+
+.admin-name {
+  width: max-content;
+  font-weight: 600;
+  color: #4d44b5;
+}
+
+.admin-role {
+  color: #a098ae;
+}
+
+.title-image img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.calendar {
+  width: 75%;
+  height: 85vh;
+}
+
+th {
+  text-align: center;
+  font-weight: 700 !important;
+  color: #a098ae !important;
+}
+
+.ant-picker-cell {
+  border-radius: 10px;
+  /* background-color: #a098ae; */
+  overflow: hidden;
+}
+
+.ant-picker-content {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.ant-picker-calendar .ant-picker-cell-selected .ant-picker-cell-inner {
+  border-radius: 10px;
+  background-color: #4d44b5 !important;
+}
+
+.ant-picker-calendar .ant-picker-cell-today .ant-picker-cell-inner {
+  border-radius: 10px;
+  background-color: #fb7d5b !important;
+}
+
+.ant-picker-calendar-date-value {
+  color: #4d44b5;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.ant-picker-calendar.ant-picker-calendar-full
+  .ant-picker-cell-selected
+  .ant-picker-calendar-date
+  .ant-picker-calendar-date-value {
+  color: white;
+}
+
+.ant-picker-calendar.ant-picker-calendar-full
+  .ant-picker-panel
+  .ant-picker-body
+  td {
+  margin: 10px;
+}
+
+.ant-badge-status-text {
+    color: white !important;
+    font-weight: 600;
+    font-size: 15px !important;
+}
+
+.ant-picker-calendar.ant-picker-calendar-full .ant-picker-cell-selected .ant-picker-calendar-date .ant-picker-calendar-date-value {
+    color: white !important;
+}
