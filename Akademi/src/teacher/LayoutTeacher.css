@@ -1,0 +1,123 @@
+.container {
+    height: 100vh;
+}
+
+.school-header {
+    background-color: #4D44B5;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 22vw; 
+    position: fixed;
+}
+
+.navigation {
+    background-color: #4D44B5;
+    /* transition: 0.5s; */
+    overflow: hidden;
+    width: 22vw; 
+    height: 100%; 
+    position: fixed;
+    top: 63px;
+}
+
+.navigation ul {
+    padding: 0;
+    margin: 0;
+}
+
+.navigation ul li {
+    width: 100%;
+    list-style: none;
+    margin-left: 20px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    margin-bottom: 10px;
+}
+
+.navigation ul li:hover {
+    background-color: #F3F4FF;
+}
+
+.navigation ul li a {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    text-decoration: none;
+    color: #F3F4FF;
+}
+
+.navigation ul li:hover a {
+    color: #4D44B5;
+}
+
+.navigation .icon {
+    margin-right: 10px;
+    font-size: 26px;
+}
+
+.navigation .title {
+    flex-grow: 1;
+    font-size: 18px;
+}
+
+.school-icon {
+    margin-right: 20px;
+    font-size: 36px;
+    color: white;
+}
+
+.school-name {
+    font-size: 32px;
+    font-weight: 700;
+    color: white;
+}
+
+.head-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation ul li.active a {
+    color: #4D44B5; 
+}
+
+.navigation ul li.active {
+    background-color: #F3F4FF; 
+}
+
+.tc-margin-outlet{
+    margin: 30px 50px;
+}
+
+.tc-avatar-layout{
+    position: relative;
+}
+
+.tc-avatar-layout img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%; 
+    cursor: pointer;
+  }
+  
+  .logout-button {
+    display: none;
+    position: absolute;
+    top: 51px;
+    right: 0;
+    background-color: #4D44B5;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100px;
+    text-align: center;
+  }
+  
+  .tc-avatar-layout:hover .logout-button {
+    display: block;
+  }
+  

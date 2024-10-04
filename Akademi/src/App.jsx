@@ -1,31 +1,36 @@
 import { Route, Routes } from "react-router-dom";
-// import {publicRouter, privateRouter} from "./router/router.jsx"
-import {privateRouter} from "./router/router.jsx"
+import { publicRouter, privateRouter } from "./router/router.jsx"
 import React from "react";
 import "./App.css";
-import Layout from "./layout/Layout.jsx"
+import LayoutTeacher from "./teacher/LayoutTeacher.jsx";
 
 function App() {
-  return (
-    // <Routes>
-    //   <Route path="/" element={<Layout />}>
+  const user = JSON.parse(localStorage.getItem('user'));
 
-    //   </Route>
-    // </Routes>
+  return (
     <>
       <Routes>
         {/* {publicRouter.map((route, index) => {
           return (
             <Route path={route.path} element={route.component} key={index} />
           );
-        })} */}
-        <Route path="/admin" element={<Layout />}>
+        })}
+        {/* mỗi 1 role là 1 layout khác nhau nên để như này nhé ae! */}
+        {user.role === 'Teacher' && (
+          <Route path="/u" element={<LayoutTeacher />}>
+            {privateRouter.teacher.map((route, index) => (
+              <Route path={route.path} element={route.component} key={index} />
+            ))}
+          </Route>
+        )}
+
+        {/* <Route path="/" element={<Layout />}>
           {privateRouter.map((route, index) => {
             return (
               <Route path={route.path} element={route.component} key={index} />
             );
           })}
-        </Route>
+        </Route> */}
       </Routes>
     </>
   );

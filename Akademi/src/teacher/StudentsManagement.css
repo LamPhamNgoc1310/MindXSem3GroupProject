@@ -1,0 +1,198 @@
+.tc-sm-body{
+    margin: 30px 50px;
+}
+
+.tc-sm-name{
+    font-size: 36px;
+    color: #303972;
+    font-weight: 700;
+}
+
+.tc-sm-header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tc-sm-nav{
+    display: flex;
+    gap: 20px;
+}
+
+.tc-notice , .tc-setting{
+    background-color: white;
+    height: 50px;
+    width: 50px;
+    font-size: 26px;
+    color: #A098AE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+}
+
+.tc-avatar-layout{
+    background-color: #A098AE;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+}
+
+.tc-info-layout{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.tc-name-layout {
+    color: #4D44B5;
+    font-weight: 700;
+}
+
+.tc-role-layout {
+    color: #A098AE;
+}
+
+.tc-info-layout, .tc-avatar-layout:hover{
+    cursor: pointer;
+}
+
+.tc-setting:hover{
+    cursor: pointer;
+    color: #4D44B5;
+}
+
+.tc-notice:hover{
+    cursor: pointer;
+    color: #4D44B5;
+}
+
+.tc-flex-layout{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.tc-sth-layout {
+    display: flex;
+    gap: 20px;
+    height: 50px;
+}
+
+.tc-search-layout{
+    background-color: white;
+    border-radius: 50px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    font-size: 26px;
+    gap: 20px;
+    color: #4D44B5;
+}
+
+.tc-search-layout input{
+    width: 350px;
+    font-size: 18px;
+    color: #4D44B5;
+    outline: none;
+}
+
+.tc-search-layout input::placeholder{
+    color: #A098AE;
+    font-size: 18px;
+}
+
+.tc-search-layout input{
+    border: none;
+    outline: none;
+}
+
+.tc-met-qua-r {
+    border-color: transparent !important; /* Bỏ màu viền khi focus */
+    box-shadow: none !important;          /* Bỏ hiệu ứng shadow khi focus */
+}
+
+.tc-add-std{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4D44B5;
+    color: white;
+    width: 12vw;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.tc-link{
+    color: white;
+    display: flex;
+}
+
+.tc-link:hover{
+    color: white;
+}
+
+.tc-add-std{
+    cursor: pointer;
+}
+
+.gap-plus{
+    margin-left: 10px;
+}
+
+.tc-table-student{
+    width: 100%;
+}
+
+.tc-avt-table img{
+    height: 35px;
+    width: 35px;
+    border-radius: 50px;
+}
+
+:where(.css-dev-only-do-not-override-11lehqq).ant-checkbox-checked .ant-checkbox-inner {
+    background-color: #4D44B5;
+    border-color: #4D44B5;
+}
+
+.ant-checkbox-input{
+    background-color: #4D44B5;
+}
+
+.tc-sss{
+    background-color: #C1BBEB;
+    border-radius: 50px;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tc-bg-timeline{
+    background-color: white;
+    margin: 30px 50px;
+    padding: 50px 50px;
+    border-radius: 20px;
+}
+
+.tc-bg-timeline-date{
+    color: #A098AE;
+    font-size: 14px;
+}
+
+:where(.css-dev-only-do-not-override-11lehqq).ant-timeline .ant-timeline-item-head-blue {
+    color: #4D44B5;
+    border-color: #4D44B5;
+}
+
+/* Add this CSS to your stylesheet */
+.no-dot .ant-timeline-item-tail {
+    display: none;
+}
+
+.no-dot .ant-timeline-item-head {
+    border: none;
+}
