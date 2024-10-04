@@ -18,7 +18,7 @@ function App() {
         })}
 
         {/* mỗi 1 role là 1 layout khác nhau nên để như này nhé ae! */}
-        {user.role === 'Teacher' && (
+        {user?.role === 'Teacher' && (
           <Route path="/u" element={<LayoutTeacher />}>
             {privateRouter.teacher.map((route, index) => (
               <Route path={route.path} element={route.component} key={index} />
@@ -26,7 +26,7 @@ function App() {
           </Route>
         )}
 
-        {user.role === 'Admin' && (
+        {user?.role === 'Admin' && (
           <Route path="/admin" element={<Layout/>}>
             {privateRouter.admin.map((route, index) => (
               <Route path={route.path} element={route.component} key={index} />

@@ -77,19 +77,19 @@ const AdminAddTeacher = () => {
                 form={form}
                 layout="vertical"
                 onFinish={handleSubmit}
-                className="tc-add-std-detail"
+                className="ad-add-teach-detail"
                 initialValues={{
                     payment: valueRadio,
                 }}
             >
-                <div className="tc-add-std-head">
+                <div className="ad-add-teach-head">
                     <p>Teacher Details</p>
                 </div>
-                <table className="tc-table-input">
+                <table className="ad-table-input">
                     <tr>
                         <td rowSpan={2} style={{ verticalAlign: 'top', width: 180, paddingRight: 40 }}>
                             <p>Photo</p>
-                            <div className="tc-add-photo" onClick={handleFileSelectClick}>
+                            <div className="ad-add-photo" onClick={handleFileSelectClick}>
                                 {imagePreview ? (
                                     <img src={imagePreview} alt="Selected" style={{ width: '100%', height: '100%' }} />
                                 ) : (
@@ -181,11 +181,11 @@ const AdminAddTeacher = () => {
                 </table>
 
                
-                <div className='tc-2-btn'>
-                    <Button type="default" onClick={handleCancel} className="tc-table-cc">
+                <div className='ad-2-btn'>
+                    <Button type="default" onClick={handleCancel} className="ad-table-cc">
                         Cancel
                     </Button>
-                    <Button type="primary" htmlType="submit" className="tc-table-sm">
+                    <Button type="primary" htmlType="submit" className="ad-table-sm">
                         Submit
                     </Button>
                 </div>
